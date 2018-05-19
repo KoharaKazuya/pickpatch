@@ -1,0 +1,15 @@
+extends:
+  - tslint:recommended
+  - tslint-immutable
+  - tslint-config-prettier
+rules:
+  # tslint:recommended customize
+  interface-name: [true, "never-prefix"]
+  object-literal-sort-keys: false
+  no-unused-variable: [true, {"ignore-pattern": "^_"}]
+  curly: [true, "ignore-same-line"]
+  # tslint-immutable
+  no-var-keyword: true
+  no-parameter-reassignment: true
+  no-object-mutation: true
+  no-delete: true
