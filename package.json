@@ -14,6 +14,12 @@
   "engines": {
     "node": ">= 6.4.0"
   },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "package.json",
+    "lib"
+  ],
   "license": "MIT",
   "main": "lib/pickpatch.js",
   "private": true,
@@ -21,5 +27,6 @@
     "build": "tsc",
     "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
     "test": "ts-node ./node_modules/.bin/jasmine 'src/**/*.spec.ts'"
-  }
+  },
+  "types": "lib/pickpatch.d.ts"
 }
