@@ -3,6 +3,9 @@
   "description": "The easy way to update partial of immutable object.",
   "version": "0.1.0",
   "author": "KoharaKazuya <reflect.results@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KoharaKazuya/pickpatch/issues"
+  },
   "devDependencies": {
     "@types/jasmine": "^2.8.7",
     "jasmine": "^3.1.0",
@@ -21,8 +24,12 @@
     "package.json",
     "lib"
   ],
+  "keywords": [
+    "immutable"
+  ],
   "license": "MIT",
   "main": "lib/pickpatch.js",
+  "repository": "KoharaKazuya/pickpatch",
   "scripts": {
     "build": "tsc",
     "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
